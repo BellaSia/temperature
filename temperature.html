@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+    <link rel="icon" href="images/logo Title.jpg" type="image/icon type">
+</head>
+
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(133, 153, 182), rgb(194, 194, 192));
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+h1 {
+    margin: 50px;
+    margin-top: 0px;
+    background-color: #FFF;
+    border-radius: 50px;
+    padding: 25px;
+    text-align: center;
+}
+
+.body {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 768px;
+    
+}
+
+.input {
+    flex: 50%;
+    margin: 15px;
+    background-color: #FFF;
+    border-radius: 0px;
+    padding: 15px;
+}
+
+.footer {
+         text-align: center;
+        padding: 30px;
+        font-size: 20px;
+        margin-top: 250px;
+        color: rgb(253, 253, 253);
+        }
+
+
+.input:focus {
+    box-shadow: 0px 0px 6px 1px rgba(133, 153, 182);
+}
+
+</style>
+<body>
+    <main>
+    <header>
+
+    <h1>Temperature Converter</h1>
+
+    </header>
+        <center>
+            <section class="body">
+        
+                <input type="number" id="celcius" name="celcius" 
+                class="input" placeholder="Celcius">
+            
+                <input type="number" name="fahrenheit" id="fahrenheit" 
+                class="input" placeholder="Fahrenheit">
+
+           
+                <input type="number" name="kelvin" id="kelvin" 
+                class="input" placeholder="Kelvin">
+          
+
+            </section>
+<!-- 
+            <input type="button" name="clear" id="clear" 
+                class="input" value="convert">
+            
+                <input type="button" name="clear" id="clear" 
+                class="input" value="reset">
+           -->
+            </center>
+
+           
+ 
+
+    <div class="footer">
+        <hr>
+        <br>
+        <p>© 2020 Copyright</p>
+        <p> KodeGo | Arabella Siachongco | SoftwareChaser</p>
+        <br>
+        <hr>
+      </div>
+
+</main>
+<script src="temperature.js"></script>
+</body>
+</html>
+
